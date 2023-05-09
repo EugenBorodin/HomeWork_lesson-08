@@ -13,5 +13,11 @@ for (let i = 0; i < names.length; i++) {
   new_array.push(new_element);
 }
 
+// Заполняем новый массив в обратном порядке
+for (let i = names.length - 1; i >= 0; i--) {
+  let new_element = names[i] + " " + ages[i] + " лет/годов";
+  new_array.push(new_element);
+}
+
 // Выводим новый массив в консоль
 console.log(new_array);
