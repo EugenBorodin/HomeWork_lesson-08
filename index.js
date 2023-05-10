@@ -23,3 +23,5 @@ for (let i = names.length - 1; i >= 0; i--) {
 console.log(new_array);
 
 // test
+
+//test2
