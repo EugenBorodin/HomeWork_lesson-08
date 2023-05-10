@@ -21,3 +21,5 @@ for (let i = names.length - 1; i >= 0; i--) {
 
 // Выводим новый массив в консоль
 console.log(new_array);
+
+// test
